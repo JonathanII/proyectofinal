@@ -103,3 +103,55 @@
     color: var(--bs-gray-200);
     font-size: 3.5rem;
 }
+
+.experiencia .item-exp h3{
+    color: grey;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.experiencia .item-exp p {
+    color: gray;
+    font-size: 18px;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.habilidades h3 {
+    color: grey;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.habilidades ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 3rem;
+    list-style: none;
+}
+
+.habilidades ul li {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.habilidades ul li p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.habilidades ul li:hover {
+    color: var(--bs-gray-200);
+    font-size: 3.5rem;
+}
